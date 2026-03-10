@@ -18,6 +18,7 @@ public class C1 extends C2 implements I1, I2
 		obj.m1();
 		obj.m2();
 		obj.m3();
+		
 
 	}
 

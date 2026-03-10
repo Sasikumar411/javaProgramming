@@ -21,18 +21,27 @@ public class FindDuplicatesInAnArray {
 		
 		System.out.println("Duplicate elements are: ");
 		
+		boolean found=false;
+		
 		for(int i=0; i<size; i++) {
 			
 			for(int j=i+1; j<size; j++)
 			{
 				if(arr[i]==arr[j]) {
 					System.out.println(arr[i]);
+					found=true;
 					break;
 					
 				}
+				
 
 	}
+			
 	}
+		if(!found)
+		{
+			System.out.println("No duplicates");
+		}
 
 }
 }
