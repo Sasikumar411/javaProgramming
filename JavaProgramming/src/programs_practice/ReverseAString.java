@@ -6,7 +6,7 @@ public class ReverseAString {
 
 	public static void main(String[] args) 
 	{
-		Scanner sc=new Scanner(System.in);
+		/*Scanner sc=new Scanner(System.in);
 		System.out.println("Enter a String");
 		
 		String s1=sc.next();
@@ -18,9 +18,22 @@ public class ReverseAString {
 			
 		}
 		
-*/
+
 		StringBuilder rev=new StringBuilder(s1);
 		System.out.println(rev.reverse());
+		
+		*/
+		
+		String s="Sasi";
+		
+		String rev="";
+		
+		for(int i=s.length()-1; i>=0; i--)
+		{
+			rev=rev + s.charAt(i);
+		}
+		System.out.println(rev);
+		
 		
 		
 	}

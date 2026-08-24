@@ -2,7 +2,8 @@ package programs_practice;
 
 import java.util.Scanner;
 
-public class Palindrome_or_not {
+public class Palindrome_or_not 
+{
 
 	public static void main(String[] args) 
 	{
@@ -30,5 +31,5 @@ public class Palindrome_or_not {
 		}
 
 	}
-
+	
 }
