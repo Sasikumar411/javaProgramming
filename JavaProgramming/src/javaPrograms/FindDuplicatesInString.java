@@ -30,7 +30,7 @@ public class FindDuplicatesInString {
 				if(arr[i]==arr[j]) {
 				}
 			}
-			System.out.println(arr[i]);
+			System.out.print(arr[i]);
 		}
 		
 	}
